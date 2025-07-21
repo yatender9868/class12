@@ -1,0 +1,11 @@
+git config --global user.name Yatender
+git config --global user.email kumaryatender445@gmail.com
+code .  -> open folder in vscode
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status # Just to see
+ssh-keygen -t ed25519 -C kumaryatender445@example.com"
+git remote add origin <git@github.com:yatender9868/.git>
+git push origin master
